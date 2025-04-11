@@ -1,0 +1,266 @@
+/* product-lettuce.html - სალათის პროდუქტის გვერდი (მსგავსი სტრუქტურით) */
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fresh Harvest ორგანული სალათი - პრემიუმ ხარისხის სალათის ფოთლები, მოყვანილი მდგრადი ფერმერული პრაქტიკის გამოყენებით.">
+    <meta name="keywords" content="სალათი, ორგანული სალათი, სალათის ფოთოლი, სალათი ყიდვა, სუფთა პროდუქტი">
+    <title>Organic Lettuce - Fresh Harvest</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.svg" alt="Fresh Harvest Logo">
+                        <h1>FRESH HARVEST</h1>
+                    </a>
+                </div>
+                <button class="mobile-menu-btn">☰</button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html" class="active">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Detail -->
+    <section class="product-detail">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> &gt; 
+                <a href="products.html">Products</a> &gt; 
+                <span>Lettuce</span>
+            </div>
+            
+            <div class="product-detail-content">
+                <div class="product-images">
+                    <div class="main-image">
+                        <img src="images/lettuce-large.jpg" alt="Lettuce - ორგანული სალათის ფოთოლი">
+                    </div>
+                    <div class="image-thumbnails">
+                        <img src="images/lettuce-1.jpg" alt="Lettuce growing" class="thumbnail">
+                        <img src="images/lettuce-2.jpg" alt="Lettuce harvest" class="thumbnail">
+                        <img src="images/lettuce-3.jpg" alt="Lettuce close-up" class="thumbnail">
+                    </div>
+                </div>
+                
+                <div class="product-info-detail">
+                    <h1>Organic Lettuce</h1>
+                    <p class="price-detail">6€ / kg</p>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(32 reviews)</span>
+                    </div>
+                    
+                    <div class="product-description">
+                        <h3>Description</h3>
+                        <p>Our organic lettuce is crisp, fresh, and bursting with flavor. Each head is carefully tended from seed to harvest using sustainable farming practices to ensure the highest quality.</p>
+                        <p>Perfect for salads, sandwiches, and wraps, our lettuce provides a delightful crunch and mild, refreshing taste.</p>
+                        
+                        <ul class="product-features">
+                            <li>100% Organic</li>
+                            <li>Sustainably grown</li>
+                            <li>Pesticide-free</li>
+                            <li>Harvested daily</li>
+                            <li>High water content for hydration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="product-order">
+                        <div class="quantity-selector">
+                            <label for="quantity">Quantity (kg):</label>
+                            <select id="quantity" name="quantity">
+                                <option value="0.5">0.5 kg</option>
+                                <option value="1" selected>1 kg</option>
+                                <option value="2">2 kg</option>
+                                <option value="3">3 kg</option>
+                                <option value="5">5 kg</option>
+                            </select>
+                        </div>
+                        
+                      <button class="btn-order">Order Now</button>
+                        <button class="btn-add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-meta">
+                        <p><strong>Availability:</strong> In Stock</p>
+                        <p><strong>Categories:</strong> <a href="#">Greens</a>, <a href="#">Organic</a>, <a href="#">Leafy Vegetables</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-tabs">
+                <div class="tab-headers">
+                    <button class="tab-btn active" data-tab="nutrition">Nutrition</button>
+                    <button class="tab-btn" data-tab="storage">Storage</button>
+                    <button class="tab-btn" data-tab="recipes">Recipes</button>
+                    <button class="tab-btn" data-tab="reviews">Reviews</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="nutrition">
+                        <h3>Nutritional Information</h3>
+                        <p>Arugula is packed with nutrients and offers numerous health benefits:</p>
+                        <table class="nutrition-table">
+                            <tr>
+                                <th>Nutrient</th>
+                                <th>Amount per 100g</th>
+                            </tr>
+                            <tr>
+                                <td>Calories</td>
+                                <td>25 kcal</td>
+                            </tr>
+                            <tr>
+                                <td>Protein</td>
+                                <td>2.6 g</td>
+                            </tr>
+                            <tr>
+                                <td>Carbohydrates</td>
+                                <td>3.7 g</td>
+                            </tr>
+                            <tr>
+                                <td>Fiber</td>
+                                <td>1.6 g</td>
+                            </tr>
+                            <tr>
+                                <td>Vitamin K</td>
+                                <td>108% of RDI</td>
+                            </tr>
+                            <tr>
+                                <td>Vitamin A</td>
+                                <td>47% of RDI</td>
+                            </tr>
+                            <tr>
+                                <td>Vitamin C</td>
+                                <td>25% of RDI</td>
+                            </tr>
+                            <tr>
+                                <td>Calcium</td>
+                                <td>16% of RDI</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="tab-pane" id="storage">
+                        <h3>Storage Tips</h3>
+                        <p>To keep your arugula fresh for longer:</p>
+                        <ul>
+                            <li>Store unwashed arugula in a plastic bag with a paper towel to absorb moisture</li>
+                            <li>Keep in the refrigerator's crisper drawer</li>
+                            <li>For best flavor and nutrient retention, use within 2-3 days of purchase</li>
+                            <li>Wash only before using, as moisture speeds up spoilage</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-pane" id="recipes">
+                        <h3>Arugula Recipes</h3>
+                        <div class="recipe-card">
+                            <h4>Arugula and Parmesan Salad</h4>
+                            <p>A simple yet delicious salad highlighting the peppery flavor of arugula.</p>
+                            <p><strong>Ingredients:</strong> Fresh arugula, Parmesan cheese shavings, lemon juice, olive oil, salt, and pepper.</p>
+                        </div>
+                        <div class="recipe-card">
+                            <h4>Arugula Pesto</h4>
+                            <p>A zesty alternative to traditional basil pesto.</p>
+                            <p><strong>Ingredients:</strong> Arugula, pine nuts, garlic, Parmesan cheese, olive oil, lemon juice, salt.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="reviews">
+                        <h3>Customer Reviews</h3>
+                        <div class="review">
+                            <div class="review-header">
+                                <span class="reviewer-name">Nino G.</span>
+                                <span class="review-stars">★★★★★</span>
+                                <span class="review-date">March 15, 2025</span>
+                            </div>
+                            <p>The arugula is always fresh and flavorful. I love adding it to my salads for that extra peppery kick!</p>
+                        </div>
+                        <div class="review">
+                            <div class="review-header">
+                                <span class="reviewer-name">Giorgi T.</span>
+                                <span class="review-stars">★★★★☆</span>
+                                <span class="review-date">February 28, 2025</span>
+                            </div>
+                            <p>Great quality greens. The only reason for 4 stars instead of 5 is that sometimes the leaves are a bit too large for my preference.</p>
+                        </div>
+                        <a href="#" class="btn-secondary">Write a Review</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-products">
+                <h3>You May Also Like</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/lettuce.jpg" alt="Lettuce - ორგანული სალათის ფოთოლი">
+                        </div>
+                        <div class="product-info">
+                            <h3>Lettuce</h3>
+                            <p class="price">6€ / kg</p>
+                            <a href="product-lettuce.html" class="btn-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/spinach.jpg" alt="Spinach - ორგანული ისპანახი">
+                        </div>
+                        <div class="product-info">
+                            <h3>Spinach</h3>
+                            <p class="price">7€ / kg</p>
+                            <a href="product-spinach.html" class="btn-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/microgreens.jpg" alt="Microgreens - ორგანული მიკრომწვანილები">
+                        </div>
+                        <div class="product-info">
+                            <h3>Microgreens</h3>
+                            <p class="price">6€ / kg</p>
+                            <a href="product-microgreens.html" class="btn-view">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo-white.svg" alt="Fresh Harvest Logo">
+                    <h3>FRESH HARVEST</h3>
+                </div>
+                <div class="contact-info">
+                    <p>123 Greenhouse Lane</p>
+                    <p>Phone: 853-123-4557</p>
+                    <p>Email: info@freshharvest.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="social-icon facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="social-icon instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Fresh Harvest. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
